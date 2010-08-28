@@ -1,0 +1,1 @@
+cocoa_slides_macruby, this repository contains the code for a port of the Cocoa Slides example application, http://developer.apple.com/mac/library/samplecode/CocoaSlides/Introduction/Intro.html, to MAcRuby. This repository is maintained by Matthew Smith.

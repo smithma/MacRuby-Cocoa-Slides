@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	172754BD107597F200D0347B /* Unit Tests */ = {
+		activeExec = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 52621F59122977330064B28D /* Cocoa Slides MacRuby */;
+		activeTarget = 8D1107260486CEB800E47090 /* Cocoa Slides MacRuby */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Cocoa Slides MacRuby */,
+		);
+		codeSenseManager = 52621F6A122977520064B28D /* Code sense */;
+		executables = (
+			52621F59122977330064B28D /* Cocoa Slides MacRuby */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 304707379;
+			PBXWorkspaceStateSaveDate = 304707379;
+		};
+		sourceControlManager = 52621F69122977520064B28D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D1A51A110A4FF5D0046A98A /* Compile */ = {
+		activeExec = 0;
+	};
+	4D1A51A510A4FF640046A98A /* Embed */ = {
+		activeExec = 0;
+	};
+	52621F59122977330064B28D /* Cocoa Slides MacRuby */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Cocoa Slides MacRuby";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	52621F69122977520064B28D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	52621F6A122977520064B28D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* Cocoa Slides MacRuby */ = {
+		activeExec = 0;
+		executables = (
+			52621F59122977330064B28D /* Cocoa Slides MacRuby */,
+		);
+	};
+}
