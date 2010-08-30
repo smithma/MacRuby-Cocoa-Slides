@@ -15,8 +15,39 @@
 			52621F59122977330064B28D /* Cocoa Slides MacRuby */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 304707379;
-			PBXWorkspaceStateSaveDate = 304707379;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					369,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304877756;
+			PBXWorkspaceStateSaveDate = 304877756;
+		};
+		perUserProjectItems = {
+			52621FD9122A35220064B28D = 52621FD9122A35220064B28D /* PBXTextBookmark */;
+			529FADEF122C0FAA0059B298 = 529FADEF122C0FAA0059B298 /* PBXTextBookmark */;
+			529FADF0122C0FAA0059B298 = 529FADF0122C0FAA0059B298 /* PBXTextBookmark */;
+			529FADF1122C0FAA0059B298 = 529FADF1122C0FAA0059B298 /* PBXTextBookmark */;
+			529FADFE122C10C00059B298 /* PBXTextBookmark */ = 529FADFE122C10C00059B298 /* PBXTextBookmark */;
+			529FADFF122C10C50059B298 /* PBXTextBookmark */ = 529FADFF122C10C50059B298 /* PBXTextBookmark */;
+			529FAE00122C10C60059B298 /* PBXTextBookmark */ = 529FAE00122C10C60059B298 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 52621F69122977520064B28D /* Source Control */;
 		userBuildSettings = {
@@ -44,6 +75,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -51,6 +83,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = "Cocoa Slides MacRuby";
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -68,6 +102,97 @@
 	52621F6A122977520064B28D /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	52621F9D122979980064B28D /* BrowserWindowController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 2483}}";
+			sepNavSelRange = "{3190, 0}";
+			sepNavVisRange = "{459, 355}";
+		};
+	};
+	52621FD3122A2F100064B28D /* MainController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 1157}}";
+			sepNavSelRange = "{2886, 0}";
+			sepNavVisRange = "{337, 462}";
+		};
+	};
+	52621FD9122A35220064B28D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52621F9D122979980064B28D /* BrowserWindowController.rb */;
+		name = "BrowserWindowController.rb: 95";
+		rLen = 0;
+		rLoc = 3190;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 368;
+	};
+	529FADEB122B01450059B298 /* SlideShowWindowController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2826, 1365}}";
+			sepNavSelRange = "{3286, 0}";
+			sepNavVisRange = "{2, 715}";
+		};
+	};
+	529FADEF122C0FAA0059B298 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52621FD3122A2F100064B28D /* MainController.rb */;
+		name = "MainController.rb: 86";
+		rLen = 0;
+		rLoc = 2886;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 145;
+	};
+	529FADF0122C0FAA0059B298 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 529FADEB122B01450059B298 /* SlideShowWindowController.rb */;
+		name = "SlideShowWindowController.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	529FADF1122C0FAA0059B298 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 529FADEB122B01450059B298 /* SlideShowWindowController.rb */;
+		name = "SlideShowWindowController.rb: 112";
+		rLen = 0;
+		rLoc = 3286;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	529FADFE122C10C00059B298 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 529FADEB122B01450059B298 /* SlideShowWindowController.rb */;
+		name = "SlideShowWindowController.rb: 112";
+		rLen = 0;
+		rLoc = 3286;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 2;
+	};
+	529FADFF122C10C50059B298 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 529FADEB122B01450059B298 /* SlideShowWindowController.rb */;
+		name = "SlideShowWindowController.rb: 112";
+		rLen = 0;
+		rLoc = 3286;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 2;
+	};
+	529FAE00122C10C60059B298 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 529FADEB122B01450059B298 /* SlideShowWindowController.rb */;
+		name = "SlideShowWindowController.rb: 112";
+		rLen = 0;
+		rLoc = 3286;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 2;
 	};
 	8D1107260486CEB800E47090 /* Cocoa Slides MacRuby */ = {
 		activeExec = 0;

@@ -52,6 +52,9 @@
 		52621F75122977CE0064B28D /* transitionmask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52621F71122977CE0064B28D /* transitionmask.jpg */; };
 		52621F77122977FB0064B28D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52621F76122977FB0064B28D /* Quartz.framework */; };
 		52621F79122977FB0064B28D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52621F78122977FB0064B28D /* QuartzCore.framework */; };
+		52621F9E122979980064B28D /* BrowserWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 52621F9D122979980064B28D /* BrowserWindowController.rb */; };
+		52621FD4122A2F100064B28D /* MainController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 52621FD3122A2F100064B28D /* MainController.rb */; };
+		529FADEC122B01450059B298 /* SlideShowWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 529FADEB122B01450059B298 /* SlideShowWindowController.rb */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -87,6 +90,9 @@
 		52621F71122977CE0064B28D /* transitionmask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = transitionmask.jpg; sourceTree = "<group>"; };
 		52621F76122977FB0064B28D /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		52621F78122977FB0064B28D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		52621F9D122979980064B28D /* BrowserWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = BrowserWindowController.rb; sourceTree = "<group>"; };
+		52621FD3122A2F100064B28D /* MainController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MainController.rb; sourceTree = "<group>"; };
+		529FADEB122B01450059B298 /* SlideShowWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SlideShowWindowController.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Cocoa Slides MacRuby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa Slides MacRuby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -203,6 +209,9 @@
 		52621F68122977520064B28D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				52621F9D122979980064B28D /* BrowserWindowController.rb */,
+				52621FD3122A2F100064B28D /* MainController.rb */,
+				529FADEB122B01450059B298 /* SlideShowWindowController.rb */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -282,6 +291,9 @@
 				52621F73122977CE0064B28D /* CocoaSlides.icns in Resources */,
 				52621F74122977CE0064B28D /* restrictedshine.tiff in Resources */,
 				52621F75122977CE0064B28D /* transitionmask.jpg in Resources */,
+				52621F9E122979980064B28D /* BrowserWindowController.rb in Resources */,
+				52621FD4122A2F100064B28D /* MainController.rb in Resources */,
+				529FADEC122B01450059B298 /* SlideShowWindowController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
